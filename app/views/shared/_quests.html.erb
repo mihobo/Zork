@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div>
+    <label type="label"><%= @quests.quest_message %></label>
+  </div>
+
+  <form action="/quests/<%= @quests.path_A_ID %>" method=GET >
+    <div>
+      <input class="button" type="submit" value="<%= @quests.path_A %>"/>
+    </div>
+  </form>
+
+  <form action="/quests/<%= @quests.path_B_ID %>" method=GET >
+    <div>
+      <input class="button" type="submit", value="<%= @quests.path_B %>", display="<%='none' if @quests.quest_message == 2 || 3%>" />
+    </div>
+  </form>
+</div>

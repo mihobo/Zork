@@ -3,5 +3,6 @@ class WelcomeController < ApplicationController
   end
 
   def new
+    @quests = Quest.find_by_id(1)
   end
 end

@@ -14,4 +14,11 @@ RSpec.describe WelcomeController, type: :controller do
       expect(response).to have_http_status(:success)
     end
   end
+
+  describe "POST /new" do
+    it "returns http success" do
+      post :new
+      expect(response).to have_http_status(:success)
+    end
+  end
 end
