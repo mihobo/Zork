@@ -4,14 +4,15 @@
 
 <div class="container">
   <center>
-  <div>
-    <label type="label"><%= @quests.quest_message %></label>
-  </div>
-
-  <form action="/quests/<%= @quests.path_A_ID %>" method=GET >
-    <div class="button-container">
-      <input class="button" type="submit" value="<%= @quests.path_A %>"/>
+    <div>
+      <label type="label"><%= @quests.quest_message %></label>
     </div>
-  </form>
+
+    <br />
+    <form action="/quests/<%= @quests.path_A_ID %>" method=GET >
+      <div class="button-container">
+        <input class="button" type="submit" value="<%= @quests.path_A %>"/>
+      </div>
+    </form>
   </center>
 <div>

@@ -4,10 +4,10 @@ class QuestsController < ApplicationController
   end
 
   def gameover
-    @quests = Quest.find(3)
+    @quests = Quest.find_by_id(3)
   end
 
   def success
-    @quests = Quest.find(2)
+    @quests = Quest.find_by_id(2)
   end
 end
