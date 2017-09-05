@@ -1,7 +1,13 @@
-<h1>Zork IV: The Ultimate Treasure Hunt</h1>
+<div><h1><center>Zork IV: The Ultimate Treasure Hunt</center></h1></div>
 
 <br /><br />
 
-<%= form_for :new, url: new_path  do |f| %>
-  <%= f.submit 'Start Game' %>
-<% end %>
+<h2>This is a game of danger and adventure. You will have to choose the correct path to get to the treasures you seek. Hardened adventurers have run away screaming like banshees into the night from the terrors from within the cave. Do you have what it takes to relinquish the hidden treasures from within? Enter at your own risk!</h2>
+
+<br /><br />
+
+<center>
+  <%= form_for :new, url: new_path  do |f| %>
+    <%= f.submit 'Start Game' %>
+  <% end %>
+</center>

@@ -13,10 +13,34 @@
  *= require_tree .
  *= require_self
  */
- body {
-   font-family: 'Press Start 2P', cursive;
- }
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+}
 
- h1 {
-   font-size: 20px;
- }
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.button {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.container .left-btn {
+  float: left;
+  width: 50%;
+  display: inline;
+  /*margin-right: -150px;*/
+}
+
+.container .right-btn {
+  float: right;
+  width: 50%;
+  display: inline;
+  /*margin-right: 150px;*/
+}
