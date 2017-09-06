@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'index' => 'welcome#index'
   get 'new' => 'welcome#new'
   post 'new' => 'welcome#new'
