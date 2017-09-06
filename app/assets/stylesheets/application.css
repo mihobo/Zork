@@ -26,6 +26,10 @@ h2 {
   font-size: 18px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 .button {
   font-size: 18px;
   padding: 5px;
@@ -60,4 +64,40 @@ input {
 
 label {
   font-size: 24px;
+}
+
+.field input {
+  width: 300px;
+}
+
+.field:hover {
+  background-color: #65D7EC;
+  color: #153C44;
+}
+
+.signup {
+  width: 100px;
+}
+
+.signup:hover {
+  background-color: #65D7EC;
+  color: #153C44;
+}
+
+.login {
+  width: 100px;
+}
+
+.login:hover {
+  background-color: #65D7EC;
+  color: #153C44;
+}
+
+.actions {
+  width: 300px;
+}
+
+.actions:hover {
+  background-color: #65D7EC;
+  color: #153C44;
 }
