@@ -1,8 +1,30 @@
+![Imgur](https://i.imgur.com/HpMrevL.jpg)
 # Zork IV: The Ultimate Treasure Hunt
 
 Zork IV: The Ultimate Treasure Hunt is a choose your own adventure game created in Ruby on Rails - a tribute to the original Zork games(https://en.wikipedia.org/wiki/Zork).
 
-Start the game, select the correct option to help you on your path to eternal treasures or eternal darkness.
+Start the game, select the correct option to help you on your path to eternal treasures or eternal ridicule.
+
+Instructions
+------------
+Fork/clone this repo:
+```
+$ git clone git@github.com:mihobo/zork.git
+$ cd zork
+$ bundle install
+$ bin/rails db:create
+$ bin/rails db:migrate
+$ rake db:seed
+$ bin/rails s
+```
+Visit  http://localhost:3000/ to play the game.
+
+To run the tests:
+```
+$ bin/rails db:migrate RAILS_ENV=test
+$ rake db:seed RAILS_ENV=test
+$ rspec
+```
 
 User Stories
 ------------
@@ -22,6 +44,18 @@ I want to be able to see its response.
 As a user,
 So that I know when the story ends,
 I want to be able to see if I have won or lost the game.
+
+As a user,
+So that I can have my own game account,
+I want to be able to sign up.
+
+As a user,
+So that I can continue my story/path,
+I want to be able to sign in.
+
+As a user,
+So that others cannot continue with my story/path,
+I want to be able to sign out.
 ```
 
 Specification
