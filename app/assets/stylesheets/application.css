@@ -14,12 +14,12 @@
  *= require_self
  */
 body {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 16px;
+  font-family: 'VT323', monospace;
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h2 {
@@ -27,20 +27,37 @@ h2 {
 }
 
 .button {
-  font-size: 12px;
+  font-size: 18px;
   padding: 5px;
+  border: 0.5px solid black;
+}
+
+.button:hover {
+  background-color: #65D7EC;
+  color: #153C44;
 }
 
 .container .left-btn {
   float: left;
   width: 50%;
   display: inline;
-  /*margin-right: -150px;*/
 }
 
 .container .right-btn {
   float: right;
   width: 50%;
   display: inline;
-  /*margin-right: 150px;*/
+}
+
+input {
+  white-space: normal;
+  width: 550px;
+  -webkit-appearance: none;
+
+  background: #ddd;
+  border: none;
+}
+
+label {
+  font-size: 24px;
 }
