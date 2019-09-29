@@ -92,3 +92,15 @@ All routes down the message tree should ultimately end in a pass/fail.
 * Add some feature specs:
 * Make it feel 'chatty' by implying the bot is typing during the delay periods
 * Stats dashboard showing # of times game played, # times completed, # of wins, # of losses, # of replays and anything else you feel is appropriate
+
+
+Things that have yet to be implemented
+--------------------------------------
+
+* user sign in prompting when trying to start a new game
+* user is able to create quests
+* user is able to edit their created quests
+* user can see their stats when they complete a game - WIN/LOSE/REPLAYS
+* quest is displayed in a chatting bot style
+* chat bot talks after some delay for realism
+* more quests - more endings - more adventure!
